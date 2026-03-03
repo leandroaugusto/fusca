@@ -1,0 +1,29 @@
+# Arduino build output
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Arduino IDE
+*.preferences
+*.ino.cpp
+*.ino.eep
+*.ino.with_bootloader.bin
+*.ino.with_bootloader.hex
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Dependencies (if using PlatformIO later)
+.pio/
+lib/
+
+# Local config overrides (if any)
+*.local
