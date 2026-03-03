@@ -1,11 +1,11 @@
 #pragma once
 
 // Pinos dos botões
+#define PIN_BTN_BRAKE      2
 #define PIN_BTN_HEADLIGHT  3
 #define PIN_BTN_LEFT       4
-#define PIN_BTN_RIGHT      10
 #define PIN_BTN_HAZARD     5
-#define PIN_BTN_BRAKE      2
+#define PIN_BTN_RIGHT      10
 
 // Pinos do OLED
 #define PIN_OLED_SCL       6
